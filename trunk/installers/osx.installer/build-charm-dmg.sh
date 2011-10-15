@@ -17,7 +17,7 @@ VOLName="Charm Crypto 0.21a"
 TMPName="charm-temp.dmg"
 SRC="./charmDMG/"
 DMGName="Charm Crypto"
-HOMEDIR="${HOME}/Documents"
+APPDIR="/Applications/"
 
 # Obviously if there is no mpkg, than don't build!
 test -d "./build/" || {
@@ -61,9 +61,9 @@ set theViewOptions to the icon view options of container window
 set arrangement of theViewOptions to not arranged
 set icon size of theViewOptions to 82
 set background picture of theViewOptions to file ".background:'charm-dmg-background.png'"
-make new alias file at container window to POSIX file "'${HOMEDIR}'" with properties {name:"Documents"}
+make new alias file at container window to POSIX file "'${APPDIR}'" with properties {name:"Applications"}
 set position of item "'Charm  Crypto.mpkg'" of container window to {100, 100}
-set position of item "Documents" of container window to {685, 120}
+set position of item "Applications" of container window to {685, 120}
 set position of item "'charm-usr'" of container window to {50,25}
 set position of item "'README-OSX.rtf'" of container window to {385,120}
 update without registering applications
