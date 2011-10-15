@@ -10289,9 +10289,9 @@
 						<key>IC_REQUIREMENT_SCRIPT_PATH</key>
 						<dict>
 							<key>PATH</key>
-							<string>/Users/micharu123/Documents/Projects/charm/installers/osx.installer/RunAtStartup.sh</string>
+							<string>RunAtStartup.sh</string>
 							<key>PATH_TYPE</key>
-							<integer>0</integer>
+							<integer>3</integer>
 						</dict>
 						<key>IC_REQUIREMENT_SCRIPT_VALUE</key>
 						<integer>1</integer>
